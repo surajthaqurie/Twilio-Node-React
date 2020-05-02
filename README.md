@@ -81,5 +81,8 @@ on both client flolder and server folder then start both client and server.
    - First install netlify cli in system and drag and drop the client folder in [netlify Page](https://app.netlify.com/teams/surajchan68/sites) then login to heroku run ```netlify login```.
   - In client we have to give heroku deploy domain instead of Localhost.
   - Then bulid the project  run ```npm run build```.
-  - Then run ```netlify deploy```. It ask for Published directory ```./bulid``` (give path of builded directory).
+  - Then run ```netlify deploy```.
+      - Select the site which you darg and drop then netlify created for that folder(recently) .
+      - It ask for Published directory ```./bulid``` (give path of builded directory).
+     
 
