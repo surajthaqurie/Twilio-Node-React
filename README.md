@@ -82,7 +82,8 @@ on both client flolder and server folder then start both client and server.
   - In client we have to give heroku deploy domain instead of Localhost.
   - Then bulid the project  run ```npm run build```.
   - Then run ```netlify deploy```.
-      - Select the site which you darg and drop then netlify created for that folder(recently) .
+      - Select the site which you ```darg and drop``` the folder then netlify created ```site``` for that folder .
       - It ask for Published directory ```./bulid``` (give path of builded directory).
      
+
 
