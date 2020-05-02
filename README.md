@@ -68,6 +68,7 @@ After cloning the repository, install the dependencies by running the following 
 ```bash
 npm install
 ```
+on both client flolder and server folder then start both client and server.
 
 [apidocs]: https://www.twilio.com/docs/api
 [libdocs]: https://twilio.github.io/twilio-node
