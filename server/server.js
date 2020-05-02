@@ -11,7 +11,9 @@ const accountSid = process.env.TWILIO_ACCOUNT_SID;      // YOUR__ACCOUNT__SID
 const authToken = process.env.TWILIO_TOKEN;  // YOUR_AUTHETICATION__TOKEN
 const twilioNumber = process.env.TWILIO_NUMBER
 
-const client = require('twilio')(accountSid, authToken);
+const client = require('twilio')(accountSid, authToken, {
+    lazyLoading: true
+});
 
 const app = express(); // alias
 
